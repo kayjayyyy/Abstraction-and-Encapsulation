@@ -13,3 +13,9 @@ print("")
 print(pyfiglet.figlet_format("FAN", font="isometric2", justify="center"))
 
 from ClassFan import Fan
+
+fanOne = Fan()
+fanOne.set_speed(Fan.FAST)
+fanOne.set_radius(10)
+fanOne.set_color("\033[33;1;3mYellow\033[0m")
+fanOne.set_on(True)
