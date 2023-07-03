@@ -16,3 +16,9 @@ from ClassFan import Fan
 
 fanOne = Fan
 fanTwo = Fan
+
+fanOne = Fan()
+fanOne.set_speed(Fan.FAST)
+fanOne.set_radius(10)
+fanOne.set_color("Yellow")
+fanOne.set_on(True)
