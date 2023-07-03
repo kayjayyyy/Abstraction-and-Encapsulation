@@ -42,3 +42,10 @@ print("\033[32;1;3mSpeed:\033[0m", fanTwo.get_speed())
 print("\033[32;1;3mRadius:\033[0m", fanTwo.get_radius())
 print("\033[32;1;3mColor:\033[0m", fanTwo.get_color())
 print("\033[32;1;3mOn:\033[0m", fanTwo.get_on())
+
+# Outro and border line
+print("\n")
+print("\033[3mThank you! Have a great day!".center(80))
+print("")
+print("\033[35m※ \033[0m" * 40)
+print("")
