@@ -13,3 +13,6 @@ print("")
 print(pyfiglet.figlet_format("FAN", font="isometric2", justify="center"))
 
 from ClassFan import Fan
+
+fanOne = Fan
+fanTwo = Fan
