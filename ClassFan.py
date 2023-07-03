@@ -3,16 +3,19 @@
 # Assignment no. 9 - Abstraction and Encapsulation
 
 class Fan:
+    # Three constants: SLOW, MEDIUM, and FAST with the values 1, 2, and 3 to denote the fan speed
     SLOW = 1
     MEDIUM = 2
     FAST = 3
     
+    # Constructor that creates a fan with the specified speed, raidus, color, and on properties
     def __init__(self, speed=SLOW, radius=5, color="blue", on=False):
         self.__speed = int(speed)
         self.__radius = float(radius)
         self.__color = str(color)
         self.__on = bool(on)
-        
+    
+    # The accessor (getters) method
     def get_speed(self):
         return self.__speed
 
@@ -25,6 +28,7 @@ class Fan:
     def get_on(self):
         return self.__on
     
+    # The mutator (setters) methods
     def set_speed(self, speed):
         self.__speed = int(speed)
 
