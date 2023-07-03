@@ -43,4 +43,4 @@ class Fan:
         self.__color = str(color)
 
     def set_on(self, on):
-        self.__color = bool(on)
+        self.__on = bool(on)
