@@ -10,12 +10,16 @@ class Fan:
     
     # Constructor that creates a fan with the specified speed, raidus, color, and on properties
     def __init__(self, speed=SLOW, radius=5, color="blue", on=False):
+        # Private int data field named speed
         self.__speed = int(speed)
+        # Private float data field named radius
         self.__radius = float(radius)
+        # Private string data field named color
         self.__color = str(color)
+        # Private bool data field named on
         self.__on = bool(on)
     
-    # The accessor (getters) method
+    # The accessor (getters) methodl; speed, radius, color and on properties
     def get_speed(self):
         return self.__speed
 
@@ -28,7 +32,7 @@ class Fan:
     def get_on(self):
         return self.__on
     
-    # The mutator (setters) methods
+    # The mutator (setters) methods; speed, radius, color and on properties
     def set_speed(self, speed):
         self.__speed = int(speed)
 
