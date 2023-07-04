@@ -3,6 +3,7 @@
 # Assignment no. 9 - Abstraction and Encapsulation (Car Class)
 
 import pyfiglet
+from ClassCar import Car
 
 # Greeting and border line
 print("")
