@@ -41,3 +41,10 @@ print("\n")
 for i in range(1, 6):
     new_car.brake()
     print("\033[34mCurrent Speed: \033[0m", new_car.get_speed())
+    
+# Outro and border line
+print("\n")
+print("\033[3mThank you! Have a great day!".center(80))
+print("")
+print("\033[35m※ \033[0m" * 40)
+print("")
