@@ -17,6 +17,11 @@ your_pet = Pet
 
 print(pyfiglet.figlet_format("Pet's Info", font="bulbhead", justify="center"))
 
-pet_name = input("\033[36mEnter the name of your pet: \033[0m")
-pet_type = input("\033[36mEnter the type of your pet: \033[0m")
-pet_age = input("\033[36mEnter the age of your pet: \033[0m")
+pet_name = input("\033[36;3mEnter the name of your pet: \033[0m")
+pet_type = input("\033[36;3mEnter the type of your pet: \033[0m")
+pet_age = input("\033[36;3mEnter the age of your pet: \033[0m")
+
+print("")
+print("-" * 80)
+print("\033[1;3;32mProcessing..........\033[0m".center(90))
+print("-" * 80)
