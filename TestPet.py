@@ -25,3 +25,5 @@ print("-" * 80)
 
 print("\n")
 print(pyfiglet.figlet_format("Pet's Info", font="bulbhead", justify="center"))
+
+print("\n\033[33mYour pet's name: \033[0m", pet.get_name(), "\n\033[33mHis/Her age: \033[0m", pet.get_animal_type(), "\n\033[33mHis/Her age: \033[0m", pet.get_age())
