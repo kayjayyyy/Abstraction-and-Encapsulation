@@ -18,3 +18,5 @@ print("\n\033[3;33mI hope you are doing well,", name + "!\033[0m")
 print("")
 
 print("\033[36m Let's get started! \033[0m".center(90, "~"))
+
+new_car = Car (1956, "Corvette")
