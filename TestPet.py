@@ -16,8 +16,11 @@ from ClassPet import Pet
 print("")
 print("\033[3m--- Please enter your pet's info ---\033[0m".center(85))
 print("\n")
+
+# Ask the user for his/her pet information
 pet = Pet (input("\033[36;3mEnter the name of your pet: \033[0m"), input("\033[36;3mEnter the type of your pet: \033[0m"), input("\033[36;3mEnter the age of your pet: \033[0m"))
 
+# Processing and pet's info banner
 print("")
 print("-" * 80)
 print("\033[1;3;32mProcessing..........\033[0m".center(90))
@@ -26,6 +29,7 @@ print("-" * 80)
 print("\n")
 print(pyfiglet.figlet_format("Pet's Info", font="bulbhead", justify="center"))
 
+# Display the pet's information
 print("\n\033[33mYour pet's name: \033[0m", pet.get_name(), "\n\033[33mHis/Her age: \033[0m", pet.get_animal_type(), "\n\033[33mHis/Her age: \033[0m", pet.get_age())
 
 # Outro and border line
