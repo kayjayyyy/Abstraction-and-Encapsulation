@@ -22,10 +22,13 @@ print("\033[36m Let's get started! \033[0m".center(90, "~"))
 new_car = Car (1956, "Corvette")
 
 print("")
+print(pyfiglet.figlet_format("CORVETTE", font="speed", justify="center"))
+key = input("\033[35mPress ENTER to start...\033[0m".center(90))
+
+print("")
 print(pyfiglet.figlet_format("ACCELERATE", font="bubble", justify="center"))
 print("\n")
 
-print("\n")
 for i in range(1, 6):
     new_car.accelerate()
     print("\033[34mCurrent Speed: \033[0m", new_car.get_speed())
