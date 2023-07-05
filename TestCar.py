@@ -37,3 +37,7 @@ print("")
 print("~" * 81)
 print(pyfiglet.figlet_format("BRAKE", font="bubble", justify="center"))
 print("\n")
+
+for i in range(1, 6):
+    new_car.brake()
+    print("\033[34mCurrent Speed: \033[0m", new_car.get_speed())
